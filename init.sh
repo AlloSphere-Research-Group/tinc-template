@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# remove git information for tinc-template
-rm -rf .git
-
-# remove init.sh as it is no longer needed
-rm init.sh
-
 # create a new git repo
 git init
 
